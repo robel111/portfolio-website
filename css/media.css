@@ -1,0 +1,117 @@
+@media screen and (max-width:767px){
+    .content{
+        width: 98%;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    .mobile-nav{
+        display: none;
+    }
+}
+@media screen and (max-width:600px){
+    .navbar{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+    }
+    
+    .header-content{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+    .header-image{
+        flex-basis: 100%;
+    }
+    .header-image img{
+        width: 100%;
+    }
+    .header-text{
+        flex-basis: 100%;
+        padding:  .5rem;
+        text-align: center;
+        margin-top: .1rem;
+        padding-bottom: .3rem;
+
+    }
+    .header-text h3{
+        font-size: 1.2rem;
+        line-height: 1;
+    }
+    .header-text h2{
+        font-size: 1.5rem;
+        line-height: 1.1;
+    }
+    .header-text p{
+        margin-bottom: 1.1rem;
+    }
+    .header-text a{
+        margin-top: 0px;
+        padding: 10px 30px;
+    }
+    .service {
+        padding-top: 100px;
+        height: 100%;
+        background-color: #F6F5F3;
+    }
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .services-items{
+        padding: 20px;
+        cursor: pointer;
+        border: 1px solid #c3c8d2;
+        border-radius: 20px;
+        margin: 10px;
+    }
+    .services-items:hover{
+        transform: scale(1);
+        padding: 30px;
+    }
+    .portfolio-project .portfolio-items{
+        flex-basis: 50%;
+    }
+    .contact-section{
+        height: 35vh;
+        width: 100%;
+    }
+    .contact{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-text{
+        flex-basis: 100%;
+    }
+    .contact-btn{
+        flex-basis: 100%;
+    }
+    .footer{
+        justify-content: end;
+        margin-bottom: 10px;
+    }
+    .footer-navbar{
+        flex-basis: 70%;
+    }
+    .footer-navbar a{
+        padding-left: 10px;
+    }
+    .footer-navbar a:first-child{
+        padding-left: 0;
+    }
+    .search{
+        flex-basis: 30%;
+        padding-left: 10px;
+    }
+   
+
+
+}
