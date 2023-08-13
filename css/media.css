@@ -20,7 +20,7 @@
     .header-content{
         display: flex;
         flex-wrap: wrap;
-        height: 100vh;
+        height: 100%;
     }
     .header-image{
         flex-basis: 100%;
@@ -76,7 +76,7 @@
         flex-basis: 50%;
     }
     .contact-section{
-        height: 35vh;
+        height: 35%;
         width: 100%;
     }
     .contact{
